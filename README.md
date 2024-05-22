@@ -7,7 +7,8 @@ This repository contains some simple Python notebooks and CLI scripts to introdu
 ## Environment
 
 ```
-conda create -n pystart -y "python>=3.6" biopython pyfastx
+# Create an environment with the required libraries
+conda create -n pystart -y "python>=3.6" biopython pyfastx pandas seaborn matplotlib ipykernel
 conda activate pystart
 ```
 
@@ -34,7 +35,7 @@ They combine code, text, and visualizations, making it easy to create and share 
 
 Python notebooks are widely used in data science and research communities for exploratory data analysis, prototyping, and documentation. See: [using Jupyter Notebooks](https://docs.climb.ac.uk/notebook-servers/using-jupyter/) from the CLIMB-BIG-DATA documentation.
 
-* [first-steps/README.md](Notebooks)
+* [Notebooks](first-steps/README.md)
 
 ## CLI (Command Line Interface) Project
 
@@ -43,7 +44,7 @@ Since we all are [CLI Gurus](https://mmbdtp.github.io/modules/unix/week_1__progr
 It is a conversation starter, so to say, and it should be improved during the workshop, or at least tested to identify weaknesses and potential improvements.
 
 
-* [project/README.md](Notebooks)
+* [Scripts](project/README.md)
 
 ## Resources
 
