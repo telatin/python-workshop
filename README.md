@@ -1,8 +1,11 @@
-# A short introduction to Python
+# MMBDTP Python Masterclass
 
 ![MMBDTP Python Masterclass](include/title.png)
 
-This repository contains some simple Python notebooks and CLI scripts to introduce Python to biologists
+This repository contains some simple Python notebooks and CLI scripts to introduce Python to biologists,
+used for the *MMBDTP Masterclass* (May 2024).
+
+* [Prerequisites](prerequisites.md)
 
 ## Environment
 
