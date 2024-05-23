@@ -39,10 +39,11 @@ for py_file in os.listdir(projects_dir):
         lines_matching = [line for line in output.stdout.strip().split("\n") if match in line]
         if len(lines_matching) == 1:
             ok += 1
-        print(ok, "/4 tests passed", sep="")
+        print("\t"ok, "/4 tests passed", sep="")
         passed += 1 if ok == 4 else 0
 
-print(f"{passed}/{total} tests passed")
+
+print(f"-----------------\n{passed}/{total} tests passed")
 if passed == total:
     exit(0)
 else:
