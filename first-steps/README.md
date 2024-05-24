@@ -8,3 +8,5 @@ Pandas dataframe](https://gist.github.com/telatin/a1fcf685f41d406ac5ed52f497aca1
 ## In this folder
 
 * [01-hello](01-hello.ipynb): the minimal "Hello World" example
+* [02-tips](02-tips.ipynb): 
+* 

@@ -40,7 +40,7 @@ They combine code, text, and visualizations, making it easy to create and share 
 
 Python notebooks are widely used in data science and research communities for exploratory data analysis, prototyping, and documentation. See: [using Jupyter Notebooks](https://docs.climb.ac.uk/notebook-servers/using-jupyter/) from the CLIMB-BIG-DATA documentation.
 
-* [Notebooks](first-steps/README.md)
+* [**Notebooks**](first-steps/README.md)
 
 ## CLI (Command Line Interface) Project
 
@@ -49,7 +49,7 @@ Since we all are [CLI Gurus](https://mmbdtp.github.io/modules/unix/week_1__progr
 It is a conversation starter, so to say, and it should be improved during the workshop, or at least tested to identify weaknesses and potential improvements.
 
 
-* [Scripts](project/README.md)
+* [**Scripts**](project/README.md)
 
 ## Resources
 
