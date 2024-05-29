@@ -11,11 +11,22 @@ used for the *MMBDTP Masterclass* (May 2024).
 
 ## Environment
 
-```
+Most of the scripts here would work in this [conda environment](https://telatin.github.io/microbiome-bioinformatics/Install-Miniconda/):
+
+```bash
 # Create an environment with the required libraries
 conda create -n pystart -y "python>=3.6" biopython pyfastx pandas seaborn matplotlib ipykernel
 conda activate pystart
 ```
+
+Note that I will write code compatible with Python 3.6, but you should consider using a recent version. 
+At the time of writing this, 3.12 is the stable version.
+
+In addition to Python, the environment will install:
+* [Biopython](https://biopython.org/) a comprehensive set of bioinformatics functions and tools
+* [pyfastx](https://pyfastx.readthedocs.io/en/latest/) a fast FASTQ/FASTA parser (note, there are parses available in Biopython, we use a separate module to show how to deal with multiple dependencies)
+* `pandas`, `seaborn` and `matplotlib` are used to show the use of Python as a Data Analysis framework (alternative to R)
+* `ipykernel` makes it possible to run the examples in a Python notebook
 
 ## Hello World!
 
@@ -57,3 +68,7 @@ There is an immense amount of training resources for Python, so I will list some
 
 * [Youtube video: Python in 30 minutes](https://youtu.be/kqtD5dpn9C8?si=JzurDYRFLrKs7x3Q): video, covers the basics with clarity
 * [Think in Python, 3rd edition](https://allendowney.github.io/ThinkPython/): online book
+
+Inevitably, you will need to check the 
+* [Official Documentation](https://docs.python.org/3/index.html)
+* For example to see what [isnumeric()](https://docs.python.org/3.9/library/stdtypes.html?highlight=isnumeric#str.isnumeric) does
