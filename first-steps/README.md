@@ -13,4 +13,6 @@ There are two additional notebooks using powerful libraries for data science, to
 * [**01-hello**](01-hello.ipynb): the very basics of python
 * [02-tips](02-tips.ipynb): data analysis, an example using the tips table
 * [03-books](03-books.ipynb): data analysis, an example using the books table
+* [04-strings](04-strings.ipynb): a walktrough strings and their methods
+* [05-object](05-object.ipynb): example class to create custom objects
 
