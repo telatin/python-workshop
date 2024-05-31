@@ -2,7 +2,7 @@
 
 [![Python application](https://github.com/telatin/python-workshop/actions/workflows/python-app.yml/badge.svg)](https://github.com/telatin/python-workshop/actions/workflows/python-app.yml)
 
-![MMBDTP Python Masterclass](include/title.png)
+![MMBDTP Python Masterclass](include/banner.png)
 
 This repository contains some simple Python notebooks and CLI scripts to introduce Python to biologists,
 used for the *MMBDTP Masterclass* (May 2024).
